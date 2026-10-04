@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(159, 130, 187);
+}
+
+.navbar{
+    background-color: blueviolet !important;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+h1, p{
+    color: white;
+
+}

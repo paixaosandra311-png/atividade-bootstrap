@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(159, 130, 187);
+}
+
+.navbar{
+    background-color: blueviolet !important;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.container-fluid {
+    background-color: blueviolet;
+   
+}
+
+.hero {
+    color: white;
+}
+
+.hero a {
+    background-color: rgb(40, 2, 75);
+    border: 1px solid rgb(40, 2, 75);
+    color: white;
+}
+
+.carousel{
+    height: 500px;
+    width: 350px;
+    margin: 30px auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: darkorchid;
+    color: white;
+    width: 360px;
+    border: 5px solid darkorchid;
+    
+}
+
+.card a{
+    background-color: rgb(40, 2, 75);
+    border: 1px solid rgb(40, 2, 75);
+    color: white;
+}
+
+.card img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+    width: 350px;
+}
+
+footer{
+    color: white;
+}
+
+footer a{
+    color: rgb(31, 0, 61);
+    text-decoration: none;
+    border-radius: 15% ;
+    background-color: blueviolet;
+    border: 5px solid blueviolet;
+}
+
+a:hover{
+    color: darkmagenta;
+}
+
+a:active{
+   color: darkslateblue;
+}
+
+h2{
+    color: white;
+}
